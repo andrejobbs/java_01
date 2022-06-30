@@ -18,7 +18,7 @@ public class ex5 {
                 if(valor >= 100)
                 {
                     cedulaDe100++;
-                    valor -= 1 00;
+                    valor -= 100;
                 }
                 else if(valor >= 50)
                 {
