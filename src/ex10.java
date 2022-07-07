@@ -7,7 +7,7 @@ public class ex10{
             //int y = 1;//
             int i=1;
             
-            for (;i < n; i++);{
+            for (;i==n;i++);{
                 i=leitor.nextInt();
                 System.out.println(i+""+n);
 
