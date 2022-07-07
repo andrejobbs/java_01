@@ -9,7 +9,7 @@ public class ex3 {
             double valor_porcentagem =(valor_vendas*comissao)/100;
             double valor_total= valor_porcentagem+valor_vendas;
             
-            System.out.println("Prod:"+valor_total);
+            System.out.println("Val total:"+valor_total);
         }
 
 

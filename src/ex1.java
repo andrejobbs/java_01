@@ -6,7 +6,7 @@ public class ex1 {
             int n1 =leitor.nextInt();
             int n2 =leitor.nextInt();
             int produto =n1*n2;
-            System.out.println("Prod:"+produto);
+            System.out.println("Produto:"+produto);
         }
 
 

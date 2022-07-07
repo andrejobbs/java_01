@@ -20,7 +20,6 @@ import java.util.Scanner;
 
 public class ex2 {
     public static void main(String[] args) throws Exception {
-        
         Scanner leitor= new Scanner(System.in);
  
         int tempo =  leitor.nextInt();

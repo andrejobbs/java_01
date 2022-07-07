@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class ex4 {
     public static void main(String[] args) throws Exception {
         try(Scanner entradaUsuario = new Scanner(System.in)){
-           System.out.println("Atribua os valores para a formula:");
+           System.out.println("Atribua os valores para à formula:");
            int A = entradaUsuario.nextInt();
            int B = entradaUsuario.nextInt();
            int C = entradaUsuario.nextInt();
