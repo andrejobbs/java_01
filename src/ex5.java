@@ -5,60 +5,66 @@ public class ex5 {
         try (Scanner entradaUsuario = new Scanner(System.in)){
             System.out.println("Digite um valor:");
             int valor = entradaUsuario.nextInt();
-
-            int cedulaDe100 = 0;
-            int cedulaDe50 = 0;
-            int cedulaDe20 = 0;
-            int cedulaDe10 = 0;
-            int cedulaDe5 = 0;
-            int cedulaDe2 = 0;
-            int cedulaDe1 = 0;
+            
+            int nota_1 = 0;
+            int nota_2 = 0;
+            int nota_5 = 0;
+            int nota_10 = 0;
+            int nota_20 = 0;
+            int nota_50 = 0;
+            int nota_100 = 0;
+           
+            
+           
+            
+           
+            
             
             while(valor > 0){
                 if(valor >= 100)
                 {
-                    cedulaDe100++;
+                    nota_100++;
                     valor -= 100;
                 }
                 else if(valor >= 50)
                 {
-                    cedulaDe50++;
+                    nota_50++;
                     valor -= 50;
                 }
                 else if(valor >= 20)
                 {
-                    cedulaDe20++;
+                    nota_20++;
                     valor -= 20;
                 }
                 else if(valor >= 10)
                 {
-                    cedulaDe10++;
+                    nota_10++;
                     valor -= 10;
                 }
                 else if(valor >= 5)
                 {
-                    cedulaDe5++;
+                    nota_5++;
                     valor -= 5;
                 }
                 else if(valor >= 2)
                 {
-                    cedulaDe2++;
+                    nota_2++;
                     valor -= 2;
                 }
                 else if(valor >= 1)
                 {
-                    cedulaDe1++;
+                    nota_1++;
                     valor -= 1;
                 }
             }
               
-            System.out.println(cedulaDe100 + " nota(s) de R$ 100,00");
-            System.out.println(cedulaDe50 + " nota(s) de R$ 50,00");
-            System.out.println(cedulaDe20 + " nota(s) de R$ 20,00");
-            System.out.println(cedulaDe10 + " nota(s) de R$ 10,00");
-            System.out.println(cedulaDe5 + " nota(s) de R$ 5,00");
-            System.out.println(cedulaDe2 + " nota(s) de R$ 2,00");
-            System.out.println(cedulaDe1 + " nota(s) de R$ 1,00");
+            System.out.println(nota_100 + " nota(s) de R$ 100,00");
+            System.out.println(nota_50 + " nota(s) de R$ 50,00");
+            System.out.println(nota_20 + " nota(s) de R$ 20,00");
+            System.out.println(nota_10 + " nota(s) de R$ 10,00");
+            System.out.println(nota_5 + " nota(s) de R$ 5,00");
+            System.out.println(nota_2 + " nota(s) de R$ 2,00");
+            System.out.println(nota_1 + " nota(s) de R$ 1,00");
 
         }
     }
